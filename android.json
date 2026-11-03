@@ -10,7 +10,7 @@
     "name": "Six Harmonies",
     "numeric_version": 1,
     "orientation": "sensorLandscape",
-    "package": "nizaiyuanhenwoma.com",
+    "package": "com.cuiocuio.sixharmonies",
     "permissions": [
         "VIBRATE",
         "INTERNET"

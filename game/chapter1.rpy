@@ -2,21 +2,6 @@
 # chapter1.rpy
 # 《Six Harmonies》第一章：风吹过白纸的时候
 # =========================================
-#
-# 建议新增背景素材：
-# 1. images/bg/campus_path_morning.png
-# 2. images/bg/garden_afternoon.png
-# 3. images/bg/dorm_room_day.png
-# 4. images/bg/rooftop_afternoon.png
-# 5. images/bg/canting.png
-# 6. images/bg/garden_dusk.png
-#
-# 建议新增CG/演出素材（可选）：
-# 1. images/cg/puff_garden_closeup.png
-# 2. images/cg/empty_seat_meeting.png
-# 3. images/cg/story_pitch_whiteboard.png
-# 4. images/overlay/rooftop_breeze_light.png
-#
 
 label chapter_1:
 
@@ -298,7 +283,7 @@ label chapter_1:
     hide rei
     show taku excited at left2, normal_light
     taku "那我先来！"
-    narrator"taku的声音比较激动，身体微微前倾，还伸出手在空中比划"
+    narrator "Taku的声音比较激动，身体微微前倾，还伸出手在空中比划"
     taku "如果只是做一个普通校园恋爱故事——当然也不是不行，但总感觉差点意思"
     taku "我们现在最大的优势，难道不是这个组合本身吗？"
 
@@ -321,7 +306,7 @@ label chapter_1:
     narrator "其他人似乎也被这句话勾起了兴趣，纷纷抬起头来"
 
     show hina serious at right2, normal_light
-    narrator "hina抬起头看了我一眼，又低下去"
+    narrator "Hina抬起头看了我一眼，又低下去"
     hina "我也……想过这种感觉"
     hina "一起做事的时候，关系会慢慢变化……"
     hina "就是那种比较特别的感觉吧"
@@ -562,7 +547,7 @@ label chapter_1:
     with dissolve
 
     narrator "她在那里"
-    narrator "她坐在那张旧长椅上，低着头，刚点燃一支烟"#怎么这么喜欢抽烟呢
+    narrator "她坐在那张旧长椅上，低着头，刚点燃一支烟"
     narrator "泡芙趴在她身后的长椅上，像是早就习惯了她的这种沉默"
 
     show haru neutral at right1, chara_enter_right
@@ -698,14 +683,9 @@ label chapter_1:
     narrator "…………"
     narrator "她低着头，或许是天色太暗了，我看不清她的表情"
     haru "当然了，如果……"
-    # narrator "眼睛被风吹得有点涩"
-    # narrator "抬手去揉眼睛——"
-    # narrator "等我再看过去时，她已经抬起了头"  这几句是我临时加的，但跟剧情没关系，也只能去掉，只是想起来一些事情，所以写下这几句话
-    # narrator "脸上是我熟悉的那种平静"
-    # narrator "但总觉得……好像错过了什么"
     show saku neutral at left1
     saku "……你说话还挺会挑重点的"
-    "她打断了我的话"
+    narrator "她打断了我的话"
     show haru thinking at right1
     haru "你是在夸我吗？"
 

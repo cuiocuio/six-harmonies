@@ -2,21 +2,7 @@
 # chapter2.rpy
 # 《Six Harmonies》第二章：放学后的草稿纸
 # =========================================
-#
-# 建议新增背景素材：
-# 1. images/bg/teaching_building_corridor_day.png
-# 2. images/bg/dessert_shop_afternoon.png
-# 3. images/bg/arcade_mall_afternoon.png
-# 4. images/bg/teaching_building_corridor_dusk.png
-# 5. images/bg/rooftop_dusk.png
-# 6. images/bg/campus_path_dusk.png
-#
-# 建议新增CG/演出素材（可选）：
-# 1. images/cg/saku_character_sheet.png
-# 2. images/cg/hina_script_pages.png
-# 3. images/cg/rei_arcade_closeup.png
-# 4. images/cg/suzu_night_meeting.png
-#
+
 label chapter_2:
 
     scene bg black
@@ -30,7 +16,7 @@ label chapter_2:
     with fade
 
     narrator "上午"
-    narrator "又是无聊的习概课，我在教室里玩了一上午的手机，头晕眼花的"
+    narrator "又是漫长的公共课，我在教室里刷了一上午的手机，头晕眼花的"
     narrator "终于听到了下课铃，我习惯性慢悠悠地走出教室"
 
     scene bg teaching_building_corridor_day

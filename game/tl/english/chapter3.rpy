@@ -114,7 +114,7 @@ init python:
         ("“没有什么价值”？", "'No value,' huh?"),
         (r"""你说得倒轻松啊。你是不是觉得，除了排期表上的东西，别的全都可以随便划掉？""", r"""Easy for you to say. Do you think anything that's not on your schedule can just be crossed out?"""),
         (r"""如果那部分确实会影响整体完成度，就应该划掉。""", r"""If it genuinely harms the project's chances of being completed, then yes, it should be cut."""),
-        (r"""卧槽，你这个人真的……""", r"""Seriously, you really are..."""),
+        (r"""不是，你这个人真的……""", r"""Seriously, you really are..."""),
         (r"""你是不是根本就不懂创作？""", r"""Do you just not understand creative work at all?"""),
         (r"""……糟了。""", r"""...This is bad."""),
         (r"""我下意识想开口拦，可还没等我说话，Taku 已经把后面几句都砸了出来。""", r"""I instinctively tried to cut in, but before I could say anything, Taku had already hurled out the next few lines."""),

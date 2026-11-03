@@ -1,6 +1,6 @@
 # =========================================
 # chapter4.rpy
-# Six Harmonies Chapter 4: The Last Days Pass Like Summer
+# 《Six Harmonies》第四章：最后几天，像夏天一样慢慢过去了
 # =========================================
 
 label chapter_4:

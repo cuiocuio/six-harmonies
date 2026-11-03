@@ -9,7 +9,7 @@ init python:
 init python:
     for key, value in [
         (r"""上午""", r"""Morning"""),
-        (r"""又是无聊的习概课，我在教室里玩了一上午的手机，头晕眼花的""", r"""Another boring Xi Thought class. I'd spent the whole morning messing around on my phone in class until my eyes were practically crossing."""),
+        (r"""又是漫长的公共课，我在教室里刷了一上午的手机，头晕眼花的""", r"""Another long general education lecture. I'd spent the whole morning scrolling on my phone in class until my eyes were practically crossing."""),
         (r"""终于听到了下课铃，我习惯性慢悠悠地走出教室""", r"""When the bell finally rang, I drifted out of the classroom at my usual lazy pace."""),
         (r"""在门口，我看到了一个熟悉的身影""", r"""At the doorway, I saw a familiar figure."""),
         (r"""是Hina，她站在走廊边上，手里抱着书，看起来像是在等人""", r"""It was Hina. She was standing by the corridor with a book hugged to her chest, looking like she was waiting for someone."""),

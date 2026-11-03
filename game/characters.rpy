@@ -17,8 +17,6 @@ define student_a = Character("StudentA", color="#000000")
 define student_b = Character("StudentB", color="#000000")
 define student_c = Character("StudentC", color="#000000")
 
-define subtitle = Character("字幕", color="#000000")
-
 
 # ---------- 背景 ----------
 image bg black = Solid("#000")
