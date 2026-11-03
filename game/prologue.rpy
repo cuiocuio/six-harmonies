@@ -2,16 +2,10 @@
 # prologue.rpy
 # 《Six Harmonies》序章：不完整的前奏
 # =========================================
-#
-# 建议追加素材（可选，不会影响当前脚本运行）：
-# 1. 手机群聊CG：images/cg/group_chat_notification.png
-# 2. 白板特写CG：images/cg/brainstorm_board.png
-# 3. Saku速写本CG：images/cg/saku_sketchbook.png
-# 4. 讨论室夜景变暗版光效：images/overlay/meeting_room_dusk.png
+
 default show_second = False
 default is_exiting = False
 default first_line_started = False
-default first_y = None  # 用于记录第一行固定位置
 
 transform prologue_first_line_fade:
     alpha 0.0
@@ -201,11 +195,11 @@ label prologue:
     $ renpy.pause(0.2, hard=True)
     narrator "……………"
     $ renpy.pause(0.2, hard=True)
-    scene black with Dissolve(0.2)
+    scene bg black with Dissolve(0.2)
     $ prologue_transition_text = replace_project_text("{color=#fff}果然{/color}")
     show text "[prologue_transition_text]" with Dissolve(0.3)
     pause
-    scene classroom_day
+    scene bg classroom_day
     show teacher neutral at left2
     show haru troubled at right1
     with Dissolve(0.5)
@@ -226,7 +220,7 @@ label prologue:
     show haru sad with Dissolve(0.5)
     narrator "………好的"
     $ renpy.pause(0.2, hard=True)
-    scene black with Dissolve(0.8)
+    scene bg black with Dissolve(0.8)
     centered "{color=#fff}讲台上的投影仍旧亮着，几个关键词像钉子一样钉在那里{/color}"
     $ renpy.pause(0.5, hard=True)
     centered "{color=#fff}{b}galgame{/b}{/color}"
@@ -240,7 +234,7 @@ label prologue:
     # ---------------------------------
     # 场景二：第一次集合
     # ---------------------------------
-    scene black with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
     $ renpy.pause(0.5, hard=True)
     scene bg meeting_room_day with Dissolve(1.5)
 
@@ -311,7 +305,7 @@ label prologue:
     narrator "他越说越顺，像脑子里已经有画面了"
 
 
-    narrator "门又一次被推开，第二个进来的……应该是rei"
+    narrator "门又一次被推开，第二个进来的……应该是Rei"
     $ renpy.pause(0.2, hard=True)
     show rei neutral at left2
     with Dissolve(0.3)
@@ -382,7 +376,7 @@ label prologue:
     rei "…………"
     $ renpy.pause(0.2, hard=True)
     show haru troubled with Dissolve(0.3)
-    "三个人各有各的想法啊……"
+    narrator "三个人各有各的想法啊……"
     hide hina with Dissolve(0.5)
     hide rei with Dissolve(0.5)   
     hide taku with Dissolve(0.5) 
@@ -475,7 +469,7 @@ label prologue:
     narrator "哇！"
     $ renpy.pause(0.2, hard=True)
     haru "哇塞，这个画风...如果我没猜错的话，你也喜欢miyako吧"
-    scene black with Dissolve(0.5)
+    scene bg black with Dissolve(0.5)
     centered "{color=#fff}Miyako是我最最喜欢的插画师，我还从来没有遇到过同好呢！{/color}"
     $ renpy.pause(0.5, hard=True)
     $ saku_reaction_text = translate_say_menu_text("{color=#fff}Saku的眼中闪过了一丝....激动？{w}\n但很快，这份激动又消失了{/color}")
@@ -504,7 +498,7 @@ label prologue:
     # 场景三：坐下之后，问题才真正开始
     # ---------------------------------
 
-    scene black with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
     show text ""
     $ renpy.pause(1.5, hard=True)
     scene bg meeting_room_day with Dissolve(1.0)
@@ -700,16 +694,11 @@ label prologue:
     # ---------------------------------
     # 场景四：沉默与转折
     # ---------------------------------
-    scene black with Dissolve(1.5)
+    scene bg black with Dissolve(1.5)
     $ renpy.pause(1.0, hard=True)
     scene bg meeting_room_evening with Dissolve(1.5)
 
     $ renpy.pause(0.8, hard=True)
-
-    
-      
-    # show haru neutral at right2, chara_enter_right
-    # with dissolve
     narrator "窗外的天色慢慢暗下来"
     $ renpy.pause(0.2, hard=True)
     narrator "讨论室里的白灯有点冷，落在桌上的纸面上，所有字都显得过分清楚"
@@ -748,7 +737,7 @@ label prologue:
     $ renpy.pause(0.2, hard=True)
     show haru neutral with Dissolve(0.3)
     stop music fadeout 1.0
-    scene black with Dissolve(0.8)
+    scene bg black with Dissolve(0.8)
     centered "{color=#fff}我的目光落回项目说明第一页{/color}"
     $ renpy.pause(0.5, hard=True)
     centered "{color=#fff}老师写在最上面的那句话，又一次撞进眼里{/color}"
@@ -771,9 +760,9 @@ label prologue:
     # 场景五：Haru第一次作出决定
     # ---------------------------------
     show haru thinking with Dissolve(0.3)
-    "………………"
+    narrator "………………"
     $ renpy.pause(0.2, hard=True)
-    "我明白了……"
+    narrator "我明白了……"
     $ renpy.pause(0.2, hard=True)
     show haru smile with Dissolve(0.3)
     haru "各位，先停一下"
@@ -782,7 +771,7 @@ label prologue:
     $ renpy.pause(0.2, hard=True)
     narrator "四个人都看向了我"
     $ renpy.pause(0.2, hard=True)
-    scene black with Dissolve(0.8)
+    scene bg black with Dissolve(0.8)
     play music "bgm/jihua.mp3" fadein 5.0 volume 0.3
     centered "{color=#fff}白板上还留着刚才写下来的词{/color}"
     $ renpy.pause(0.2, hard=True)
@@ -804,7 +793,7 @@ label prologue:
     $ renpy.pause(0.2, hard=True)
     centered "{color=#fff}其实……{/color}"
     $ renpy.pause(0.2, hard=True)
-    scene meeting_room_evening with Dissolve(0.8)
+    scene bg meeting_room_evening with Dissolve(0.8)
     show haru smile with Dissolve(0.3)
     haru "其实我们现在不是没想法"
     $ renpy.pause(0.2, hard=True)
@@ -832,13 +821,7 @@ label prologue:
     $ framework_outline_text = translate_say_menu_text("先把主题和主线大纲定下来，不用太宏大{w}，也不要太复杂")
     haru "[framework_outline_text]"
     $ renpy.pause(0.2, hard=True)
-    # haru "然后就是……"
-    # show haru troubled 
-    # haru "然后就是……{w}那个……"
-    # show haru xmouth with Dissolve(0.3)
-    # "糟糕{w}一紧张就忘了接下来要说什么了……"
-    # $ renpy.pause(0.2, hard=True)
-    scene black with Dissolve(0.8)
+    scene bg black with Dissolve(0.8)
     $ quiet_room_text = translate_say_menu_text("{color=#fff}房间里很安静……{w}\n大家都在很认真地听我讲话……{/color}")
     centered "[quiet_room_text]"
     $ renpy.pause(0.5, hard=True)
@@ -930,7 +913,7 @@ label prologue:
     hina "如果只做一条主线，我会先把角色关系压清楚"
     $ renpy.pause(0.2, hard=True)
 
-    scene black with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
     $ renpy.pause(1.0, hard=True)
     play music "bgm/waltz.mp3" 
     centered "{color=#fff}……这不算达成一致{/color}"

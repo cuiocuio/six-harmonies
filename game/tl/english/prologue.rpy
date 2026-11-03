@@ -72,7 +72,7 @@ init python:
 
 init python:
     for key, value in [
-        (r"""门又一次被推开，第二个进来的……应该是rei""", r"""The door opened again. The second person to come in was... Rei, I think."""),
+        (r"""门又一次被推开，第二个进来的……应该是Rei""", r"""The door opened again. The second person to come in was... Rei, I think."""),
         (r"""无神的双眼、黑框眼镜，还有一股已经提前进入工作状态的冷淡气息""", r"""Dull eyes, black-rimmed glasses, and an air of chilly efficiency like he'd already clocked into work mode."""),
         (r"""他扫了一眼房间，就把电脑放稳、开机、连电，动作利落得像是在参加某种技术答辩""", r"""He swept a glance around the room, set his laptop down, powered it on, and plugged it in with the kind of efficiency you'd expect from a technical presentation."""),
         (r"""我看过要求了""", r"""I've already read the requirements."""),
@@ -99,6 +99,8 @@ init python:
         (r"""嗯，我知道的""", r"""Mm, I know."""),
         (r"""……我不想让我写的故事变成只剩选项和流程的东西""", r"""...I don't want the story I write to turn into something that's nothing but choices and plot checkpoints."""),
         (r"""有些对白，如果刚好落在那个时刻，是会在心里停一下的""", r"""Some lines, if they land at exactly the right moment, really do linger in your heart."""),
+        (r"""三个人各有各的想法啊……""", r"""The three of them all have their own ideas in mind..."""),
+        (r"""我明白了……""", r"""I get it now..."""),
         (r"""接着进门的……是Saku""", r"""The next one to walk in was Saku."""),
         (r"""白发、冷色调的穿搭、夹在手臂里的绘画本，还有一种明显不想被搭话的气场""", r"""White hair, cool-toned clothes, a sketchbook tucked under her arm, and a presence that clearly said she did not want to be talked to."""),
         (r"""我是负责立绘和UI设计的""", r"""I'm in charge of character art and UI design."""),

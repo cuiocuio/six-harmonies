@@ -215,8 +215,11 @@ screen timed_choice(prompt, options, timeout=6.0, timeout_value="timeout"):
     default remaining = int(timeout) if timeout > 0 else 0
 
     if timeout > 0:
-        timer timeout action Return(timeout_value)
-        timer 1.0 repeat True action If(remaining > 0, SetScreenVariable("remaining", remaining - 1), NullAction())
+        timer 1.0 repeat True action If(
+            remaining > 1,
+            SetScreenVariable("remaining", remaining - 1),
+            [SetScreenVariable("remaining", 0), Return(timeout_value)],
+        )
 
     add Solid("#00000033")
 
