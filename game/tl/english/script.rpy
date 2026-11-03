@@ -1,0 +1,20 @@
+init python:
+    ENGLISH_DISPLAY_TEXT.update({
+        "《Six Harmonies》": "Six Harmonies",
+        "序章：不完整的前奏": "Prologue: An Incomplete Prelude",
+        "第一章": "Chapter 1",
+        "风吹过白纸的时候": "When the Wind Blew Across the Blank Page",
+        "第二章": "Chapter 2",
+        "放学后的草稿纸": "After-School Draft Paper",
+        "第三章": "Chapter 3",
+        "风平浪静之后": "After the Calm",
+        "第四章": "Chapter 4",
+        "最后几天，像夏天一样慢慢过去了": "The Last Days Passed Slowly, Like Summer",
+        "好结局：和声成章": "Good Ending: Harmony in Full",
+        "中性结局：并肩过关": "Normal Ending: Side by Side",
+        "坏结局：六人挂科": "Bad Ending: All Six Failed",
+        "{size=72}{color=#fff}{b}第一章{/b}{/color}{/size}\n{size=46}{color=#fff}{b}风吹过白纸的时候{/b}{/color}{/size}": "{size=72}{color=#fff}{b}Chapter 1{/b}{/color}{/size}\n{size=46}{color=#fff}{b}When the Wind Blew Across the Blank Page{/b}{/color}{/size}",
+        "{size=72}{color=#fff}{b}第二章{/b}{/color}{/size}\n{size=46}{color=#fff}{b}放学后的草稿纸{/b}{/color}{/size}": "{size=72}{color=#fff}{b}Chapter 2{/b}{/color}{/size}\n{size=46}{color=#fff}{b}After-School Draft Paper{/b}{/color}{/size}",
+        "{size=72}{color=#fff}{b}第三章{/b}{/color}{/size}\n{size=46}{color=#fff}{b}风平浪静之后{/b}{/color}{/size}": "{size=72}{color=#fff}{b}Chapter 3{/b}{/color}{/size}\n{size=46}{color=#fff}{b}After the Calm{/b}{/color}{/size}",
+        "{size=72}{color=#fff}{b}第四章{/b}{/color}{/size}\n{size=46}{color=#fff}{b}最后几天，像夏天一样慢慢过去了{/b}{/color}{/size}": "{size=72}{color=#fff}{b}Chapter 4{/b}{/color}{/size}\n{size=46}{color=#fff}{b}The Last Days Passed Slowly, Like Summer{/b}{/color}{/size}",
+    })
